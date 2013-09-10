@@ -1,0 +1,8 @@
+-Dsbt.log.format=false 
+-Dfile.encoding=UTF-8 
+#-Dhttp.proxyHost=proxyserver
+#-Dhttp.proxyPort=8080
+#-Dhttps.proxyHost=proxyserver
+#-Dhttps.proxyPort=8080
+-Dsun.net.client.defaultReadTimeout=480000 
+-Dhttp.connection.timeout=480000

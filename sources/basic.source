@@ -1,0 +1,6 @@
+alias ls='ls -Fa --color=auto --show-control-chars'
+alias ll='ls -l'
+
+export PATH=${PATH}:~/bin
+
+export LANG=ja_JP.utf8

@@ -1,0 +1,9 @@
+case `/bin/uname` in
+	MINGW*)
+		alias kill='taskkill /PID'
+		alias tree='/c/windows/system32/tree.com'
+    alias ln='~/bin/msysln.sh'
+		;;
+	*)
+		:
+esac
