@@ -1,0 +1,8 @@
+#!/bin/bash
+
+repldir=~/dev/scala/workspaces/repl
+
+mkdir -p $repldir
+cd $repldir
+sbt console
+
