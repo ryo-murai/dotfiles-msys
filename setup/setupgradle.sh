@@ -1,10 +1,10 @@
 #!/bin/bash
 
 #
-GRADLE_VER="1.7"
 GRADLE_BASE=~/.gradle
 GRADLE_ZIP=$GRADLE_BASE/gradle-bin.zip
 GRADLE_PROP=$GRADLE_BASE/gradle.properties
+GRADLE_VER=`curl -s "http://api.gvmtool.net/candidates/gradle/default"`
 
 download_extract()
 {
@@ -38,6 +38,8 @@ setup_proxy()
 
 main()
 {
+  echo "installing gradle ${GRADLE_VER}"
+
   download_extract
   create_source
   setup_proxy
