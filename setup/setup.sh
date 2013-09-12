@@ -10,7 +10,7 @@ source ~/dotfiles/sources/mingw.source
 cd ~
 for file in $FILES
 do
-    mkdir -p `dirname $file`
-	  ln ~/dotfiles/rc/$file $file
+  mkdir -p `dirname $file`
+  ln ~/dotfiles/rc/$file $file
 done
 
