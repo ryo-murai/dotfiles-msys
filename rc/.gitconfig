@@ -1,0 +1,24 @@
+[color]
+  ui = true
+[alias]
+  p = pull
+  co = checkout
+  a  = add
+  aa = add -A
+  l  = log
+  st = status
+  sh = stash
+  f  = fetch
+  ci = commit
+  cm = commit -m
+  di = diff
+  br = branch
+  hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+[core]
+  pager = less
+  editor = vim
+	quotepath = false
+[gui]
+	encoding = utf-8
+[diff "zip"]
+  textconf = unzip -c -a
