@@ -6,6 +6,7 @@
 Session.vim
 .netrwhist
 *~
+rc/.vim/bundle/
 
 # added
 sources/*_gen.source
