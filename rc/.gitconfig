@@ -1,3 +1,6 @@
+# local user config, usernames, etc
+[include]
+  path=~/.gitconfig-local
 [color]
   ui = true
 [alias]
@@ -10,6 +13,7 @@
   sh = stash
   f  = fetch
   ci = commit
+  cia = commit -a
   cm = commit -m
   di = diff
   dw = diff --word-diff=color -b
@@ -18,8 +22,8 @@
 [core]
   pager = less
   editor = vim
-	quotepath = false
+  quotepath = false
 [gui]
-	encoding = utf-8
+  encoding = utf-8
 [diff "zip"]
   textconf = unzip -c -a
