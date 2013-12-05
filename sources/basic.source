@@ -1,6 +1,23 @@
 alias ls='ls -Fa --color=auto --show-control-chars'
 alias ll='ls -l'
+alias h='history'
 
 export PATH=${PATH}:~/bin
 
 export LANG=ja_JP.utf8
+
+cdd()
+{
+  devtype=$1
+  tpath=~/dev/$devtype/workspaces
+
+  if [ -d $tpath ]; then
+    cd $tpath
+  else
+    read -p "$tpath is not found, create a dir ? [Y/n]" ans
+    case `echo $ans | tr y Y` in
+      "" | Y* ) mkdir -p $tpath;;
+      *       ) ;;
+   esac
+  fi
+}
