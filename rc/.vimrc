@@ -34,6 +34,7 @@ let g:quickrun_config = {
 \   }
 \ }
 
+set nocompatible
 set ts=2
 set expandtab
 set number
@@ -45,5 +46,6 @@ set noautoindent
 set fileencodings=utf-8,cp932,iso-2022-jp,default,latin
 set smartcase
 set ignorecase
+syntax on
 
 map <F5> ggO#!/bin/bash<ESC>
