@@ -26,4 +26,4 @@
 [gui]
   encoding = utf-8
 [diff "zip"]
-  textconf = unzip -c -a
+  textconv = unzip -c -a
