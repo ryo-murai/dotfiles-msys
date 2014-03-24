@@ -16,8 +16,11 @@ cdd()
   else
     read -p "$tpath is not found, create a dir ? [Y/n]" ans
     case `echo $ans | tr y Y` in
-      "" | Y* ) mkdir -p $tpath;;
+      "" | Y* ) 
+        mkdir -p $tpath
+        cd $tpath
+        ;;
       *       ) ;;
-   esac
+    esac
   fi
 }
