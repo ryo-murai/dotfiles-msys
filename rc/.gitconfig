@@ -20,10 +20,10 @@
   br = branch
   hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
 [core]
-  pager = less
+  pager = less -r
   editor = vim
   quotepath = false
 [gui]
   encoding = utf-8
 [diff "zip"]
-  textconv = unzip -c -a
+  textconv = catdocx
