@@ -32,8 +32,8 @@ updateProperties()
 
 main()
 {
-  download
+  download $1
   updateProperties
 }
 
-main
+main $1

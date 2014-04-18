@@ -25,5 +25,9 @@
   quotepath = false
 [gui]
   encoding = utf-8
-[diff "zip"]
-  textconv = catdocx
+[difftool "docdiff"]
+  cmd = "wscript.exe \"$HOME/tools/difftools/diff-doc.js\" \"$LOCAL\" \"`pwd`/$REMOTE\""
+[difftool "xlsdiff"]
+  cmd = "wscript.exe \"$HOME/tools/difftools/diff-xls.js\" \"$LOCAL\" \"`pwd`/$REMOTE\""
+[difftool "pttdiff"]
+  cmd = "wscript.exe \"$HOME/tools/difftools/diff-ptt.js\" \"$LOCAL\" \"`pwd`/$REMOTE\""

@@ -1,3 +1,0 @@
-#!/bin/bash
-
-unzip -q -a -c $1 word/document.xml | iconv -f utf-8
