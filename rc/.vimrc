@@ -42,7 +42,6 @@ set encoding=cp932     " for windows
 "set encoding=utf-8
 set fileencoding=utf-8
 set fileformat=unix
-set noautoindent
 set fileencodings=utf-8,cp932,iso-2022-jp,default,latin
 set smartcase
 set ignorecase
