@@ -29,5 +29,5 @@
   cmd = "wscript.exe \"$HOME/tools/difftools/diff-doc.js\" \"$LOCAL\" \"`pwd`/$REMOTE\""
 [difftool "xlsdiff"]
   cmd = "wscript.exe \"$HOME/tools/difftools/diff-xls.js\" \"$LOCAL\" \"`pwd`/$REMOTE\""
-[difftool "pttdiff"]
-  cmd = "wscript.exe \"$HOME/tools/difftools/diff-ptt.js\" \"$LOCAL\" \"`pwd`/$REMOTE\""
+[difftool "pptdiff"]
+  cmd = "wscript.exe \"$HOME/tools/difftools/diff-ppt.js\" \"$LOCAL\" \"`pwd`/$REMOTE\""
