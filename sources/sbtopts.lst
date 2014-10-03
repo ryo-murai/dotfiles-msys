@@ -1,8 +1,8 @@
 -Dsbt.log.format=false 
 -Dfile.encoding=UTF-8 
 -Dhttp.proxyHost=localhost
--Dhttp.proxyHost=8880
+-Dhttp.proxyPort=8880
 -Dhttps.proxyHost=localhost
--Dhttps.proxyHost=8880
+-Dhttps.proxyPort=8880
 -Dsun.net.client.defaultReadTimeout=480000 
 -Dhttp.connection.timeout=480000

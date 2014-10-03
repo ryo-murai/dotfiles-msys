@@ -1,3 +1,3 @@
 #!/bin/sh
 
-java ${SBTVMOPTS} ${SBTOPTS} -jar `dirname $0`/sbt-launch.jar "$@"
+java ${SBT_VMOPTS} ${SBT_OPTS} -jar `dirname $0`/sbt-launch.jar "$@"
