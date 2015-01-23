@@ -1,7 +1,6 @@
 source $HOME/.vim/encode.vim
 
 " vundle settings
-set nocompatible               " be iMproved
 filetype off                   " required!
 
 set rtp+=~/.vim/vundle/
@@ -34,8 +33,7 @@ let g:quickrun_config = {
 \   }
 \ }
 
-set nocompatible
-set ts=2
+set tabstop=2
 set expandtab
 set number
 set encoding=cp932     " for windows
