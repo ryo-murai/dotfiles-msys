@@ -1,8 +1,17 @@
--Dsbt.log.format=false 
--Dfile.encoding=UTF-8 
+# -- instead below, use $LANG=ja_JP.UTF-8 
+#-Dsbt.log.format=false 
+#-Dfile.encoding=UTF-8 
+#
+# ## sbt issue for windows
+# https://github.com/sbt/sbt/issues/880
+-Dinput.encoding=Cp1252
+#
+# ## local proxy settings
 -Dhttp.proxyHost=localhost
 -Dhttp.proxyPort=8880
 -Dhttps.proxyHost=localhost
 -Dhttps.proxyPort=8880
+#
+# ## timeout settings
 -Dsun.net.client.defaultReadTimeout=480000 
 -Dhttp.connection.timeout=480000
