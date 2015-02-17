@@ -39,8 +39,9 @@ set number
 set encoding=cp932     " for windows
 "set encoding=utf-8
 set fileencoding=utf-8
-set fileformat=unix
 set fileencodings=utf-8,cp932,iso-2022-jp,default,latin
+set fileformats=unix,dos
+set fileformat=unix
 set smartcase
 set ignorecase
 syntax on
