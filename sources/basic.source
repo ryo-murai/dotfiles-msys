@@ -1,6 +1,7 @@
 alias ls='ls -Fa --color=auto --show-control-chars'
 alias ll='ls -l'
 alias h='history'
+alias vim='vim -p'
 
 export PATH=${PATH}:~/bin
 
