@@ -28,6 +28,8 @@
   quotepath = false
 [gui]
   encoding = utf-8
+[diff "utf16"]
+  textconv = iconv -f utf-16 -t utf-8
 [difftool "docdiff"]
   cmd = "wscript.exe \"$HOME/tools/difftools/diff-doc.js\" \"$LOCAL\" \"`pwd`/$REMOTE\""
 [difftool "xlsdiff"]
