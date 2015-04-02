@@ -26,6 +26,7 @@
   pager = less -r
   editor = vim
   quotepath = false
+  autocrlf = false
 [gui]
   encoding = utf-8
 [diff "utf16"]
