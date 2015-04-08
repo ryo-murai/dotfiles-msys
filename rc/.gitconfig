@@ -23,6 +23,7 @@
   xlsdiff = difftool --tool=xlsdiff
   pptdiff = difftool --tool=pptdiff
 [core]
+  attributesfile = ~/.gitattributes
   pager = less -r
   editor = vim
   quotepath = false
@@ -31,6 +32,8 @@
   encoding = utf-8
 [diff "utf16"]
   textconv = iconv -f utf-16 -t utf-8
+[diff "zip"]
+  textconv = unzip -c -a
 [difftool "docdiff"]
   cmd = "wscript.exe \"$HOME/tools/difftools/diff-doc.js\" \"$LOCAL\" \"`pwd`/$REMOTE\""
 [difftool "xlsdiff"]

@@ -1,6 +1,0 @@
-*.pptx diff=pptdiff
-*.docx diff=docdiff
-*.xlsx diff=xlsdiff
-
-*.ps1 diff=utf16
-*.psm diff=utf16

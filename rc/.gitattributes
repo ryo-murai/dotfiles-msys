@@ -1,0 +1,6 @@
+*.pptx diff=zip
+*.docx diff=zip
+*.xlsx diff=zip
+
+*.ps1 diff=utf16
+*.psm diff=utf16
