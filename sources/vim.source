@@ -1,0 +1,3 @@
+if [ -e ~/tools/vim/vim ]; then
+  alias vim=~/tools/vim/vim
+fi
