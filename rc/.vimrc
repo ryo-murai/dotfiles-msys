@@ -44,6 +44,8 @@ set fileformats=unix,dos
 set fileformat=unix
 set smartcase
 set ignorecase
+set backupdir=~/vimtmp,.
+set directory=~/vimtmp,.
 syntax on
 
 map <F5> ggO#!/bin/bash<ESC>
