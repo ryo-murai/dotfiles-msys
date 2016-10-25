@@ -5,6 +5,13 @@ if [ ! -d ./.git ]; then
   exit 4
 fi
 
+status=`git status |  grep 'Untracked files:'`
+if [ $? -eq 0 ]; then
+  echo "warning: working directory has untracked file(s)"
+  git status
+  sleep 3
+fi
+
 tgzfile=${1:-`basename $PWD`}
 destdir=${2:-~/temp}
 
