@@ -1,0 +1,12 @@
+#!/bin/sh
+
+CURR_BRANCH=`git branch | grep \* | cut -f2 -d' '`
+
+if [ ${CURR_BRANCH} != "master" ]; then
+  echo "* * * NOTICE: you are trying to commit other than master."
+  echo "              consider 'git checkout master'"
+  echo "                or 'git commit --no-verify'  if you are sure updating ${CURR_BRANCH}"
+  exit 1
+fi
+
+exit 0
